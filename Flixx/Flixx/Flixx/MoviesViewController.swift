@@ -2,7 +2,7 @@
 //  MoviesViewController.swift
 //  Flixx
 //
-//  Created by Chioma Ebinum on 7/9/21.
+//  Created by Roosevelt Eki on 7/9/21.
 //
 
 import UIKit
@@ -24,10 +24,12 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let posterPath = movie["poster_path"] as! String
         let posterURL = URL(string: baseURL + posterPath)
         
+        
         cell.titleLabel.text = title
         cell.synopsisLabel.text = synopsis
         cell.releaseDate.text = releaseDate
         cell.posterView.af_setImage(withURL: posterURL!)
+        
         
         return cell
     }

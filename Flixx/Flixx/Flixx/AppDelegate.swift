@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Flixx
 //
-//  Created by Chioma Ebinum on 7/9/21.
+//  Created by Roosevelt Eki on 7/9/21.
 //
 
 import UIKit
